@@ -1,9 +1,10 @@
-# Virtual Machine: Sanal Makine (VM): fiziki bir bilgisayarda çalıştırılmak istenen belirli bir yazılımın çalıştırılabilmesi amacıyla kullanılan bir bilgisayar olarak tanımlanabilir. Zira Sanal Makine, tıpkı fiziksel bir makinede olduğu gibi kendine ait işletim sistemine, depolamaya, ağa, konfigürasyon ayarlarına ve yazılıma sahiptir.
+## Virtual Machine:
+Sanal Makine (VM): fiziki bir bilgisayarda çalıştırılmak istenen belirli bir yazılımın çalıştırılabilmesi amacıyla kullanılan bir bilgisayar olarak tanımlanabilir. Zira Sanal Makine, tıpkı fiziksel bir makinede olduğu gibi kendine ait işletim sistemine, depolamaya, ağa, konfigürasyon ayarlarına ve yazılıma sahiptir.
 CONTAİNER :Yazılım dünyasında container (kapsayıcı), bir uygulamanın çalışması için gerekli olan tüm bağımlılıkları, kütüphaneleri ve ayarları içeren izole bir çalışma ortamıdır. Sanal makineler gibi çalışır ama daha hafiftir ve sistem kaynaklarını daha verimli kullanır.
 
 ## Docker Desktop Nedir? 
 Docker Desktop, Windows ve macOS için geliştirilmiş Docker'ı kolayca yönetmek ve çalıştırmak için kullanılan bir uygulamadır. İçinde Docker Engine, Docker CLI, Docker Compose ve bir dizi araç bulunur.
-Özellikleri:
+### Özellikleri:
  Kullanıcı dostu arayüz: GUI (Grafiksel Arayüz) sayesinde container’ları görsel olarak yönetebilirsin.
  Docker Compose desteği: Çoklu container uygulamalarını yönetmeyi kolaylaştırır.
  Sanal makine desteği: Windows/macOS ortamında Linux tabanlı container’ları çalıştırabilir.
@@ -23,7 +24,8 @@ Containerd, Docker'ın bir parçası olmasına rağmen Docker olmadan da Kuberne
 
 
 
-Kubernetes: (K8s), container'ları otomatik olarak yöneten, ölçeklendiren ve dağıtan bir container orkestrasyon platformudur.
+### Kubernetes:
+(K8s), container'ları otomatik olarak yöneten, ölçeklendiren ve dağıtan bir container orkestrasyon platformudur.
 Container teknolojileri (örneğin Docker) tek bir container'ı yönetmek için iyidir. Ancak çok sayıda container çalıştırmak ve bunları verimli şekilde yönetmek gerektiğinde Kubernetes devreye girer.
 
 # Bu teknolojiler nerede kullanılmaktadır?
